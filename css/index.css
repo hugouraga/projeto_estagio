@@ -63,6 +63,9 @@
 	.sobre{
 		margin-top: 80px;
 	}
+	.social{
+		display: none;
+	}
 }	
 
 /*Sobre*/

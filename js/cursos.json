@@ -14,10 +14,10 @@
 			"CargaHoraria": "2h"
 		},
 		{
-			"Curso": "Meu Curso",
-			"Instituicao": "Onde realizei o curso",
-			"Local": "Local da Instituicao",
-			"CargaHoraria": "200h"
+			"Curso": "Algoritmos e estruturas de dados",
+			"Instituicao": "UFPE",
+			"Local": "CIn - Centro de Informática - UFPE",
+			"CargaHoraria": "60h"
 		}
 	]
 }
