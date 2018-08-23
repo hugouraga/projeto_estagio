@@ -52,19 +52,25 @@
 	}
 	.apresentacao h1{
 		font-size: 3.8em;
-		margin-top: 130px;
+		margin-top: 40px;
 	}
 	.apresentacao h2{
 		font-size: 1.2em;
 	}
 	.imagem{
-		margin-top: 14vh;
+		margin-top: 15vh;
 	}
 	.sobre{
 		margin-top: 80px;
 	}
 	.social{
 		display: none;
+	}
+	#contato{
+		display: none;
+	}
+	.nav a{
+		margin-top: -15px;
 	}
 }	
 
