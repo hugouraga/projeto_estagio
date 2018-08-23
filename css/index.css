@@ -63,14 +63,9 @@
 	.sobre{
 		margin-top: 80px;
 	}
-	.social{
-		display: none;
-	}
-	#contato{
-		display: none;
-	}
 	.nav a{
-		margin-top: -15px;
+		margin-top: -7px;
+		font-size: 11px;
 	}
 }	
 
