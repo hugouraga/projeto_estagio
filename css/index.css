@@ -1,0 +1,238 @@
+/*Redes sociais*/
+.social{
+	font-size: 25px;
+
+}
+.background_principal{
+	background-image: url('imagens/background_principal1.jpg');
+	background-size:cover ;
+	height: 100vh;
+}
+.background_principal h5{
+	font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+}
+.background_principal a{
+	color :  white;
+}
+/*Apresentação*/ 
+
+.apresentacao{
+	height: 85vh;
+	background-color: rgba(27, 56, 82, 0.7);
+	position: absolute;
+	width: 100%;
+	margin-top: 15vh;
+
+
+}
+.apresentacao h1{
+	font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+	font-weight: 600;
+	font-size: 4.8em;
+	color: white;
+	text-align: center;
+	margin-top: 10vh;
+}
+.apresentacao h2{
+	font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+    font-size: 2.6em;
+    line-height: 1.5em;
+    color: white;
+    text-align: center;
+    font-weight: 300;
+}
+.imagem{
+	text-align: center;
+	border-radius: 10px;
+	margin-top: 12vh;
+}
+@media(max-width: 750px){
+	.apresentacao{
+		height: 85vh;
+	}
+	.apresentacao h1{
+		font-size: 3.8em;
+		margin-top: 130px;
+	}
+	.apresentacao h2{
+		font-size: 1.2em;
+	}
+	.imagem{
+		margin-top: 14vh;
+	}
+	.sobre{
+		margin-top: 80px;
+	}
+}	
+
+/*Sobre*/
+
+.sobre{
+	width: 100%;
+}
+.sobre div{
+	margin: auto;
+	margin-top: 10px
+}
+.sobre h3{
+	text-align: center;
+	font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+    font-weight: 300;
+    line-height: 1.5em;
+    font-size: 17px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.sobre h4{
+	text-align: center;
+	font-weight: 500;
+    color: #3C4858;
+    font-size: 1.825em;
+    line-height: 1.4em;
+    margin: 20px 0 10px;
+}
+.sobre p{
+	text-align: center;
+	margin: auto; 
+	margin: 0 0 15px;
+	color: #3C4858;
+	font-size: 20px;
+}
+
+.detalhes{
+	margin-top: 80px;
+	width: 100%;
+	text-align: center;
+	background-color: #dfdfdf;
+	padding-top: 60px;
+	padding-bottom: 60px;
+}
+.detalhes p{
+	color: #3C4858;
+    font-weight: 400;
+    margin: 0 0 15px;
+    font-size: 16px;
+}
+.icon{
+	display: block;
+    max-width: 100%;
+    height: auto;
+    margin-top: 10px;
+}
+.icon img{
+	border-radius: 130px;
+	max-width: 160px;
+}
+
+/*Habilidades*/
+.skills{
+	margin-top: 60px;
+}
+.skills h3{
+	font-weight: 500;
+    color: #3C4858;
+    font-size: 2.9em;
+    font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+    font-weight: 300;
+    line-height: 1.5em
+}
+.skills h4{
+	font-family: inherit;
+    font-weight: 500;
+    color: inherit;
+    margin-top: 25px;
+    margin-bottom: 5px;
+    font-size: 20px;
+    font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+    font-weight: 300;
+    line-height: 1.5em;
+    font-size: 1.5em;
+    line-height: 1.4em;
+}
+.tecnologias{
+	width: 100%;
+}
+.tecnologias div{
+	margin: auto;
+}
+.tecnologias ul li{
+	font-size: 19px;
+}
+
+/*Cursos*/
+.cursos h3{
+	margin-top: 60px;
+	font-weight: 500;
+    color: #3C4858;
+    font-size: 2.9em;
+    font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+    font-weight: 300;
+    line-height: 1.5em;
+    margin-bottom: 30px;
+}
+
+.sobre-experiencias{
+	width: 100%;
+}
+.sobre-experiencias div{
+	margin: auto;
+	margin-top:40px;
+}
+.rotacionar{
+	-ms-transform: rotate(180deg); /* IE 9 */
+    -webkit-transform: rotate(180deg); /* Safari */
+    transform: rotate(180deg); /* Standard syntax */
+}
+
+
+/*Contato*/
+.contato{
+	margin-top: 80px;
+}
+.contato h3{
+	font-weight: 500;
+    color: #3C4858;
+    margin-bottom: 30px;
+    font-size: 2.6em;
+}
+.contato h4{
+	font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+    font-weight: 300;
+    line-height: 1.5em;
+    font-size: 1.3em;
+    line-height: 1.4em;
+    color: #3C4858; 
+}
+.rodape{
+	width: 100%;
+	height: 100px;
+	background-color: #dfdfdf;
+	padding: 35px 0;
+}
+.rodape h4{
+	font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+    font-weight: 300;
+    line-height: 1.5em;
+    font-size: 16px;
+    color: #333;
+}
+
+/*Animação*/
+
+.anime{
+	opacity: 0;
+	-webkit-transform: translate3d(-100px,0,0);
+	   -moz-transform: translate3d(-100px,0,0);
+	    -ms-transform: translate3d(-100px,0,0);
+	     -o-transform: translate3d(-100px,0,0);
+	        transform: translate3d(-100px,0,0);
+	transition: 1s;
+}
+.anime-start{
+	opacity: 1;
+	-webkit-transform: translate3d(0,0,0);
+	   -moz-transform: translate3d(0,0,0);
+	    -ms-transform: translate3d(0,0,0);
+	     -o-transform: translate3d(0,0,0);
+	        transform: translate3d(0,0,0);
+}
